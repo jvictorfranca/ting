@@ -1,7 +1,7 @@
 
 class Queue:
     queueList = []
-    
+
     def __init__(self):
         """Inicialize sua estrutura aqui"""
         self.queueList = []
