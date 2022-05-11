@@ -12,7 +12,7 @@ def exists_word(word, instance):
             "arquivo": instance.search(fileIndex),
             "ocorrencias": []
         }
-        i=0
+        i = 0
         for line in text_lines:
             if word.lower() in line.lower():
                 to_append = {"linha": i + 1}
