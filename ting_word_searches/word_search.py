@@ -18,7 +18,8 @@ def exists_word(word, instance):
                 to_append = {"linha": i + 1}
                 file_dict["ocorrencias"].append(to_append)
             i += 1
-        list_to_return.append(file_dict)
+        if len(file_dict["ocorrencias"]) > 0:
+            list_to_return.append(file_dict)
     return(list_to_return)
 
 
